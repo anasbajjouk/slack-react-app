@@ -44,6 +44,7 @@ class UserPanel extends React.Component {
               <Icon name="code" />
               <Header.Content>Chat</Header.Content>
             </Header>
+
             <Header style={{ padding: '0.25em' }} as="h4" inverted>
               <Dropdown
                 trigger={
