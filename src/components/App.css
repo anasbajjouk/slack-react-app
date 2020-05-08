@@ -8,7 +8,7 @@ body,
 
 /* Messages.js */
 .messages {
-  height: 440px;
+  height: 62vh;
   overflow-y: scroll;
 }
 
@@ -22,8 +22,17 @@ body,
   z-index: 200;
 }
 
-/*Message.js*/
-.message_self {
+/* Message.js */
+.message__self {
   border-left: 2px solid orange;
   padding-left: 8px;
+}
+
+.message__image {
+  padding: 1em;
+}
+
+/* ProgressBar.js */
+.progress__bar {
+  margin: 0.3em 0 0 0 !important;
 }
